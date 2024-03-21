@@ -1,0 +1,19 @@
+
+<div class="flex-container" *ngFor="let i of dbNot">
+
+        <div class=" flex-item-left"> 
+                        <a href='{{i.url}}'>
+                            <img src= "{{i.imagen}}" width="80%%" height="400px" >
+                        </a>
+        </div>
+
+        <div class="flex-item-right" >
+                        <dl>
+                                <dd>{{i.organizacion}}</dd>
+                            <a href="">
+                                <dt>{{i.noticia}} </dt>
+                                <dd>{{i.descripcion}}  </dd>
+                            </a>
+                        </dl>
+        </div>
+</div>
